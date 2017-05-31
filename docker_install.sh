@@ -13,3 +13,5 @@ sudo service docker start
 
 sudo groupadd docker
 sudo usermod -aG docker $USER
+
+## todo user1 cannot use docker without sudo. try to fix this

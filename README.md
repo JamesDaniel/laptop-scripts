@@ -16,6 +16,8 @@ These scripts are to be used to automate the setup of elementaryOs 0.4.1
    - This script will setup the private ssh key to ssh into a server.
  - gen_ssh_key.sh
    - This script will generate a public and private ssh key pair.
+ - rstudio_container_start.sh
+   - This script will start-up rstudio server in a docker container. It can be a accessed at: `http://localhost:3001/`
 
 ## Setup Instructions
 
@@ -35,3 +37,4 @@ To setup elementaryOS on a Dell inspiron 15 laptop, follow these step by step in
  - Allow password login on the server. Instructions to do this can be found at: `https://askubuntu.com/questions/101670/how-can-i-allow-ssh-password-authentication-from-only-certain-ip-addresses`
  - Copy up the ssh key to the server: `ssh-copy-id user@<IP_ADDRESS>`
  - Disable password login on the server.
+ - Start RStudio: `./rstudio_container_start.sh`
