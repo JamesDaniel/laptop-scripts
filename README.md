@@ -32,3 +32,6 @@ To setup elementaryOS on a Dell inspiron 15 laptop, follow these step by step in
  - Change into that directory: `cd ~/.ssh`
  - Execute the script to generate an ssh key: `~/laptop-scripts/gen_ssh_key.sh`
  - Enter in the new name of the ssh key. Leave the password blank. Then enter the same name of the ssh key again.
+ - Allow password login on the server. Instructions to do this can be found at: `https://askubuntu.com/questions/101670/how-can-i-allow-ssh-password-authentication-from-only-certain-ip-addresses`
+ - Copy up the ssh key to the server: `ssh-copy-id user@<IP_ADDRESS>`
+ - Disable password login on the server.
