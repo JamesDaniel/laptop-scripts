@@ -5,7 +5,7 @@ These scripts are to be used to automate the setup of elementaryOs 0.4.1
 ## Scripts
 
  - init.sh
-   - This script will install Google Chrome browser and setup git.
+   - This script will install Google Chrome browser and setup git. This script will also install Discord.
  - install_docker.sh
    - This script will install docker on elementaryOS 0.4. This script has to be run in a root terminal.
  - che_install.sh
