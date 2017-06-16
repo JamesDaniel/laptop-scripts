@@ -1,5 +1,7 @@
 # Initial setup of system.
 
+touch .bash_profile
+
 # Git.
 echo 'Enter git email:'
 read email
