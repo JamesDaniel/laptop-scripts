@@ -25,7 +25,7 @@ sudo dnf install docker-ce
 
 sudo systemctl start docker
 
-sudo systemctl start docker
-
 read User
 sudo usermod -aG docker $User
+
+echo 'sudo systemctl start docker' >> ~/.bash_profile
