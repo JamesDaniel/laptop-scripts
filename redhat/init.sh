@@ -1,6 +1,6 @@
 # Initial setup of system.
 
-touch .bash_profile
+touch ~/.bash_profile
 
 # Git.
 echo 'Enter git email:'
@@ -12,3 +12,10 @@ git config --global user.name $name
 
 # Update system.
 su -c 'dnf update'
+
+# Touchpad tap to click
+# Reference https://wiki.archlinux.org/index.php/Libinput
+sudo dnf install libinput
+echo 'Manual steps for touchpad config:'
+echo '    From the quick launcher search and launch "Mouse & Touchpad".'
+echo '    Enable "tap to click" in settings.'
