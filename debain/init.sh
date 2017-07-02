@@ -1,7 +1,7 @@
 sudo apt-get update
 
 # Setup git
-git config --global user.email "james.d.mcgarr@students.ittralee.ie"
+git config --global user.email "jamesmcgarr@protonmail.com"
 git config --global user.name "JamesDaniel"
 
 # Install discord
