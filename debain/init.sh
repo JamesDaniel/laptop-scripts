@@ -1,5 +1,8 @@
 sudo apt-get update
 
+# To get the command add-apt-repository.
+sudo apt-get install software-properties-common python-software-properties
+
 # Setup git
 git config --global user.email "jamesmcgarr@protonmail.com"
 git config --global user.name "JamesDaniel"
